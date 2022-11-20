@@ -1,92 +1,55 @@
-# Natural Language Processing Specialization
+# Natural Language Processing Specialization on Coursera (offered by deeplearning.ai)
 
-Natural Language Processing (NLP) uses algorithms to understand and manipulate human language. This technology is one of the most broadly applied areas of machine learning. As AI continues to expand, so will the demand for professionals skilled at building models that analyze speech and language, uncover contextual patterns, and produce insights from text and audio.
-This Specialization will equip you with the state-of-the-art deep learning techniques needed to build cutting-edge NLP systems. By the end of this Specialization, you will be ready to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages and summarize text, and even build chatbots.
+Programming assignments from all courses in the Coursera [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing) offered by `deeplearning.ai`.
 
-This Specialization is for students of machine learning or artificial intelligence as well as software engineers looking for a deeper understanding of how NLP models work and how to apply them. Learners should have a working knowledge of machine learning, intermediate Python including experience with a deep learning framework (e.g., TensorFlow, Keras), as well as proficiency in calculus, linear algebra, and statistics. If you would like to brush up on these skills, we recommend the Deep Learning Specialization, offered by deeplearning.ai and taught by Andrew Ng.
+## Credits
 
-This Specialization is designed and taught by two experts in NLP, machine learning, and deep learning. Younes Bensouda Mourri is an Instructor of AI at Stanford University who also helped build the Deep Learning Specialization. Łukasz Kaiser is a Staff Research Scientist at Google Brain and the co-author of Tensorflow, the Tensor2Tensor and Trax libraries, and the Transformer paper.
+This repo contains my work for this specialization. The code base, quiz questions and diagrams are taken from the [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing), unless specified otherwise.
 
-## Course 1: Classification and Vector Spaces in NLP
+## Courses
 
-This is the first course of the Natural Language Processing Specialization.
+The [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing) on Coursera contains four courses:
 
-**Week 1: Logistic Regression for Sentiment Analysis of Tweets**
+- Course 1: [Natural Language Processing with Classification and Vector Spaces](https://www.coursera.org/learn/classification-vector-spaces-in-nlp)
+- Course 2: [Natural Language Processing with Probabilistic Models](https://www.coursera.org/learn/probabilistic-models-in-nlp)
+- Course 3: [Natural Language Processing with Sequence Models](https://www.coursera.org/learn/sequence-models-in-nlp)
+- Course 4: [Natural Language Processing with Attention Models](https://www.coursera.org/learn/attention-models-in-nlp)
 
-- Use a simple method to classify positive or negative sentiment in tweets
+## Specialization Info
 
-**Week 2: Naïve Bayes for Sentiment Analysis of Tweets**
+- Natural Language Processing (NLP) uses algorithms to understand and manipulate human language. This technology is one of the most broadly applied areas of machine learning. As AI continues to expand, so will the demand for professionals skilled at building models that analyze speech and language, uncover contextual patterns, and produce insights from text and audio.
 
-- Use a more advanced model for sentiment analysis
+- By the end of this specialization, you will be ready to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages and summarize text, and even build chatbots. These and other NLP applications are going to be at the forefront of the coming transformation to an AI-powered future.
 
-**Week 3: Vector Space Models**
+- This Specialization is designed and taught by two experts in NLP, machine learning, and deep learning. Younes Bensouda Mourri is an Instructor of AI at Stanford University who also helped build the Deep Learning Specialization. Łukasz Kaiser is a Staff Research Scientist at Google Brain and the co-author of Tensorflow, the Tensor2Tensor and Trax libraries, and the Transformer paper.
 
-- Use vector space models to discover relationships between words and use principal component analysis (PCA) to reduce the dimensionality of the vector space and visualize those relationships
+## Topics Covered
 
-**Week 4: Word Embeddings and Locality Sensitive Hashing for Machine Translation**
+*This Specialization will equip you with the state-of-the-art deep learning techniques needed to build cutting-edge NLP systems:*
 
-- Write a simple English-to-French translation algorithm using pre-computed word embeddings and locality sensitive hashing to relate words via approximate k-nearest neighbors search
+- Use logistic regression, naïve Bayes, and word vectors to implement sentiment analysis, complete analogies, and translate words, and use locality sensitive hashing for approximate nearest neighbors.
 
+- Use dynamic programming, hidden Markov models, and word embeddings to autocorrect misspelled words, autocomplete partial sentences, and identify part-of-speech tags for words.
 
-## Course 2: Probabilistic Models in NLP
+- Use dense and recurrent neural networks, LSTMs, GRUs, and Siamese networks in TensorFlow and Trax to perform advanced sentiment analysis, text generation, named entity recognition, and to identify duplicate questions.
 
-This is the second course of the Natural Language Processing Specialization.
+- Use encoder-decoder, causal, and self-attention to perform advanced machine translation of complete sentences, text summarization, question-answering and to build chatbots. Models covered include T5, BERT, transformer, reformer, and more!
+Enjoy!
 
-**Week 1: Auto-correct using Minimum Edit Distance**
+## Programming Assignments
 
-- Create a simple auto-correct algorithm using minimum edit distance and dynamic programming
+### Course 1: Natural Language Processing with Classification and Vector Spaces
 
-**Week 2: Part-of-Speech (POS) Tagging**
-
-- Apply the Viterbi algorithm for POS tagging, which is important for computational linguistics
-
-**Week 3: N-gram Language Models**
-
-- Write a better auto-complete algorithm using an N-gram model (similar models are used for translation, determining the author of a text, and speech recognition)
-
-**Week 4: Word2Vec and Stochastic Gradient Descent**
-
-- Write your own Word2Vec model that uses a neural network to compute word embeddings using a continuous bag-of-words model
+- [Sentiment Analysis with Logistic Regression](https://github.com/mz-zarei/nlp_specialization/tree/main/1_Classification_VectorSpaces/semantic_analysis_logist_regression)
+- [Naive Bayes](https://github.com/mz-zarei/nlp_specialization/tree/main/1_Classification_VectorSpaces/semantic_analysis_naive_bayes)
 
 
-## Course 3: Sequence Models in NLP
+### Course 2: Natural Language Processing with Probabilistic Models
 
-This is the third course in the Natural Language Processing Specialization.
+### Course 3: Natural Language Processing with Sequence Models
 
-**Week 1: Sentiment with Neural Nets**
+### Course 4: Natural Language Processing with Attention Models
 
-- Train a neural network with GLoVe word embeddings to perform sentiment analysis of tweets
+## Disclaimer
 
-**Week 2: Language Generation Models**
-
-- Generate synthetic Shakespeare text using a Gated Recurrent Unit (GRU) language model
-
-**Week 3: Named Entity Recognition (NER)**
-
-- Train a recurrent neural network to perform NER using LSTMs with linear layers
-
-**Week 4: Siamese Networks**
-
-- Use so-called ‘Siamese’ LSTM models to compare questions in a corpus and identify those that are worded differently but have the same meaning
-
-
-## Course 4: Attention Models in NLP
-
-This is the fourth course in the Natural Language Processing Specialization.
-
-**Week 1: Neural Machine Translation with Attention**
-
-- Translate complete English sentences into French using an encoder/decoder attention model
-
-**Week 2: Summarization with Transformer Models**
-
-- Build a transformer model to summarize text
-
-**Week 3: Question-Answering with Transformer Models**
-
-- Use T5 and BERT models to perform question answering
-
-**Week 4: Chatbots with a Reformer Model**
-
-- Build a chatbot using a reformer model
-
+I recognize the hard time people spend on building intuition, understanding new concepts and debugging assignments. The solutions uploaded here are **only for reference**. They are meant to unblock you if you get stuck somewhere. Please do not copy any part of the code as-is (the programming assignments are fairly easy if you read the instructions carefully). Similarly, try out the quizzes yourself before you refer to the quiz solutions.
