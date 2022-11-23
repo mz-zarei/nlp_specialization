@@ -41,7 +41,8 @@ Enjoy!
 ### Course 1: Natural Language Processing with Classification and Vector Spaces
 
 - [Sentiment Analysis with Logistic Regression](https://github.com/mz-zarei/nlp_specialization/tree/main/1_Classification_VectorSpaces/semantic_analysis_logist_regression)
-- [Naive Bayes](https://github.com/mz-zarei/nlp_specialization/tree/main/1_Classification_VectorSpaces/semantic_analysis_naive_bayes)
+- [Sentiment Analysis with Naive Bayes](https://github.com/mz-zarei/nlp_specialization/tree/main/1_Classification_VectorSpaces/semantic_analysis_naive_bayes)
+- [Machine Translation and Similar Document search using Locally Sensitive Hashing KNN](https://github.com/mz-zarei/nlp_specialization/tree/main/1_Classification_VectorSpaces/semantic_analysis_naive_bayes)
 
 
 ### Course 2: Natural Language Processing with Probabilistic Models
